@@ -1,0 +1,119 @@
+#topp{
+    font-size: large;
+}
+
+#ptext{
+    background-color: rgb(95, 95, 95);
+}
+
+#ltext{
+    background-color: rgb(37, 37, 37);
+}
+
+#ctext{
+    background-color: rgb(95, 95, 95);
+}
+
+#stext{
+    background-color: rgb(37, 37, 37);
+}
+
+#header{
+    grid-area: h;
+}
+
+#content1{
+    grid-area: c1;
+}
+
+#content2{
+    grid-area: c2;
+}
+
+#content3{
+    grid-area: c3;
+}
+
+#content4{
+    grid-area: c4;
+}
+
+/* Storleken på bilderna inom griden */
+#peter{
+    width: 100%;
+    height: 100%;
+}
+
+#lois{
+    width: 50%;
+    height: 100%;
+}
+
+#stewie{
+    width: 50%;
+    height: 100%;
+}
+
+#chris{
+    width: 100%;
+    height: 100%;
+}
+
+/* Navigations Meny med flex */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgb(72, 72, 72);
+}
+
+ul {
+    list-style: none;
+}
+
+.active{
+    color: #fc036b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.ctn{
+    padding: 8px 15px;
+    background: rgb(38, 255, 0);
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+/* Meny Knapp */
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+/* ordna länkarna på navigationsmenyn */
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+/* Mellanrum mellan knapparna */
+.nav-links li{
+    margin: 0 30px;
+}
+
+.text{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: x-large;
+    color: aliceblue;
+}
+
