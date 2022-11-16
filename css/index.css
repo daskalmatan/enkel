@@ -78,8 +78,13 @@ header{
         margin-top: -900px;
         transition: all 0.5s ease;
     }
+
+    .nav-links li{
+        margin: 30px auto;
+    }
+
     .mobile-menu{
-        margin-top: 10px;
+        margin-top: 0px;
     }
     .nav-links li{
         margin: 30px auto;
