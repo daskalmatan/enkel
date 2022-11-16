@@ -81,6 +81,7 @@ ul {
 /* ordna länkarna på navigationsmenyn */
 .nav-links{
     align-items: center;
+    color: whitesmoke;
 }
 
 /* Mellanrum mellan knapparna */
