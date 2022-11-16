@@ -99,6 +99,7 @@
         grid-template-columns: 1fr;
         grid-auto-rows: minmax(50px, auto);
         grid-template-areas: 
+        "h"
         "c1"
         "p"
         "c2"
@@ -106,6 +107,7 @@
         "c3"
         "s"
         "c4"
-        "c";
+        "c"
+        "t";
     }
 }
